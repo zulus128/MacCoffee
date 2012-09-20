@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "CaptureSessionManager.h"
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController {
+    
+    CGFloat screenWidth;
+    CGFloat screenHeight;
+}
 
 @property (retain) CaptureSessionManager *captureManager;
 @property (nonatomic, retain) UILabel *scanningLabel;

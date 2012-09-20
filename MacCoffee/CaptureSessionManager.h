@@ -9,6 +9,8 @@
 #import <CoreMedia/CoreMedia.h>
 #import <AVFoundation/AVFoundation.h>
 
+#define kImageCapturedSuccessfully @"imageCapturedSuccessfully"
+
 @interface CaptureSessionManager : NSObject {
     
 }

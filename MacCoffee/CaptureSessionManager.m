@@ -7,6 +7,7 @@
 //
 
 #import "CaptureSessionManager.h"
+#import <ImageIO/ImageIO.h>
 
 @implementation CaptureSessionManager
 
@@ -73,7 +74,7 @@
 
 - (void)addStillImageOutput
 {
-    [self setStillImageOutput:[[[AVCaptureStillImageOutput alloc] init] autorelease]];
+    [self setStillImageOutput:[[AVCaptureStillImageOutput alloc] init]];
     NSDictionary *outputSettings = [[NSDictionary alloc] initWithObjectsAndKeys:AVVideoCodecJPEG,AVVideoCodecKey,nil];
     [[self stillImageOutput] setOutputSettings:outputSettings];
     
