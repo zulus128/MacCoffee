@@ -23,8 +23,9 @@
                                                                   CGRectGetMidY(layerRect))];
 	[[[self view] layer] addSublayer:[[self captureManager] previewLayer]];
     
-    UIImageView *overlayImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"overlaygraphic.png"]];
-    [overlayImageView setFrame:CGRectMake(30, 100, 260, 200)];
+    UIImageView *overlayImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MC_XL_frame.png"]];
+//    [overlayImageView setFrame:CGRectMake(30, 100, 260, 200)];
+    [overlayImageView setFrame:CGRectMake(0, 0, 320, 420)];
     [[self view] addSubview:overlayImageView];
 //    [overlayImageView release];
     
@@ -34,13 +35,13 @@
     [overlayButton addTarget:self action:@selector(scanButtonPressed) forControlEvents:UIControlEventTouchUpInside];
     [[self view] addSubview:overlayButton];
     
-    UILabel *tempLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 50, 120, 30)];
+    UILabel *tempLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 90, 120, 30)];
     [self setScanningLabel:tempLabel];
 //    [tempLabel release];
 	[self.scanningLabel setBackgroundColor:[UIColor clearColor]];
 	[self.scanningLabel setFont:[UIFont fontWithName:@"Courier" size: 18.0]];
 	[self.scanningLabel setTextColor:[UIColor redColor]];
-	[self.scanningLabel setText:@"Scanning..."];
+	[self.scanningLabel setText:@"Processing..."];
     [self.scanningLabel setHidden:YES];
 	[[self view] addSubview:self.scanningLabel];
     
