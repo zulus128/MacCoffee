@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CaptureSessionManager.h"
 
 @interface FirstViewController : UIViewController
+
+@property (retain) CaptureSessionManager *captureManager;
+@property (nonatomic, retain) UILabel *scanningLabel;
 
 @end

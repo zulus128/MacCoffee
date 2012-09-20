@@ -21,6 +21,10 @@
 		9C15770E160AC60400536404 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C15770D160AC60400536404 /* SecondViewController.m */; };
 		9C157710160AC60400536404 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C15770F160AC60400536404 /* second.png */; };
 		9C157712160AC60400536404 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C157711160AC60400536404 /* second@2x.png */; };
+		9C15771A160AC76C00536404 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C157719160AC76C00536404 /* CaptureSessionManager.m */; };
+		9C157720160ACA7600536404 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C15771F160ACA7600536404 /* AVFoundation.framework */; };
+		9C157724160ACBA900536404 /* overlaygraphic.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C157722160ACBA900536404 /* overlaygraphic.png */; };
+		9C157725160ACBA900536404 /* scanbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C157723160ACBA900536404 /* scanbutton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,11 @@
 		9C15770D160AC60400536404 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		9C15770F160AC60400536404 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		9C157711160AC60400536404 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		9C157718160AC76C00536404 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		9C157719160AC76C00536404 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		9C15771F160ACA7600536404 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9C157722160ACBA900536404 /* overlaygraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlaygraphic.png; sourceTree = "<group>"; };
+		9C157723160ACBA900536404 /* scanbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanbutton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C157720160ACA7600536404 /* AVFoundation.framework in Frameworks */,
 				9C1576EE160AC60400536404 /* UIKit.framework in Frameworks */,
 				9C1576F0160AC60400536404 /* Foundation.framework in Frameworks */,
 				9C1576F2160AC60400536404 /* CoreGraphics.framework in Frameworks */,
@@ -63,6 +73,7 @@
 		9C1576DE160AC60400536404 = {
 			isa = PBXGroup;
 			children = (
+				9C15771F160ACA7600536404 /* AVFoundation.framework */,
 				9C1576F3160AC60400536404 /* MacCoffee */,
 				9C1576EC160AC60400536404 /* Frameworks */,
 				9C1576EA160AC60400536404 /* Products */,
@@ -90,18 +101,17 @@
 		9C1576F3160AC60400536404 /* MacCoffee */ = {
 			isa = PBXGroup;
 			children = (
+				9C157721160ACB8800536404 /* Images */,
 				9C1576FC160AC60400536404 /* AppDelegate.h */,
 				9C1576FD160AC60400536404 /* AppDelegate.m */,
 				9C1576FF160AC60400536404 /* MainStoryboard_iPhone.storyboard */,
 				9C157702160AC60400536404 /* MainStoryboard_iPad.storyboard */,
+				9C157718160AC76C00536404 /* CaptureSessionManager.h */,
+				9C157719160AC76C00536404 /* CaptureSessionManager.m */,
 				9C157705160AC60400536404 /* FirstViewController.h */,
 				9C157706160AC60400536404 /* FirstViewController.m */,
-				9C157708160AC60400536404 /* first.png */,
-				9C15770A160AC60400536404 /* first@2x.png */,
 				9C15770C160AC60400536404 /* SecondViewController.h */,
 				9C15770D160AC60400536404 /* SecondViewController.m */,
-				9C15770F160AC60400536404 /* second.png */,
-				9C157711160AC60400536404 /* second@2x.png */,
 				9C1576F4160AC60400536404 /* Supporting Files */,
 			);
 			path = MacCoffee;
@@ -116,6 +126,19 @@
 				9C1576FB160AC60400536404 /* MacCoffee-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C157721160ACB8800536404 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9C157708160AC60400536404 /* first.png */,
+				9C15770A160AC60400536404 /* first@2x.png */,
+				9C15770F160AC60400536404 /* second.png */,
+				9C157711160AC60400536404 /* second@2x.png */,
+				9C157722160ACBA900536404 /* overlaygraphic.png */,
+				9C157723160ACBA900536404 /* scanbutton.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +199,8 @@
 				9C15770B160AC60400536404 /* first@2x.png in Resources */,
 				9C157710160AC60400536404 /* second.png in Resources */,
 				9C157712160AC60400536404 /* second@2x.png in Resources */,
+				9C157724160ACBA900536404 /* overlaygraphic.png in Resources */,
+				9C157725160ACBA900536404 /* scanbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +215,7 @@
 				9C1576FE160AC60400536404 /* AppDelegate.m in Sources */,
 				9C157707160AC60400536404 /* FirstViewController.m in Sources */,
 				9C15770E160AC60400536404 /* SecondViewController.m in Sources */,
+				9C15771A160AC76C00536404 /* CaptureSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
