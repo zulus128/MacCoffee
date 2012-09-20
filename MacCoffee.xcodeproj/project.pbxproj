@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C04812A160B239200B729E6 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C048129160B239200B729E6 /* ImageIO.framework */; };
+		9C04812D160B239F00B729E6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C04812C160B239F00B729E6 /* CoreMedia.framework */; };
+		9C04812F160B23A900B729E6 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C04812E160B23A900B729E6 /* CoreVideo.framework */; };
+		9C048135160B2A0900B729E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C048134160B2A0900B729E6 /* QuartzCore.framework */; };
 		9C1576EE160AC60400536404 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1576ED160AC60400536404 /* UIKit.framework */; };
 		9C1576F0160AC60400536404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1576EF160AC60400536404 /* Foundation.framework */; };
 		9C1576F2160AC60400536404 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1576F1160AC60400536404 /* CoreGraphics.framework */; };
@@ -29,6 +33,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C048129160B239200B729E6 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		9C04812C160B239F00B729E6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9C04812E160B23A900B729E6 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		9C048134160B2A0900B729E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9C1576E9160AC60400536404 /* MacCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1576ED160AC60400536404 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9C1576EF160AC60400536404 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,6 +70,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C048135160B2A0900B729E6 /* QuartzCore.framework in Frameworks */,
+				9C04812F160B23A900B729E6 /* CoreVideo.framework in Frameworks */,
+				9C04812D160B239F00B729E6 /* CoreMedia.framework in Frameworks */,
+				9C04812A160B239200B729E6 /* ImageIO.framework in Frameworks */,
 				9C157720160ACA7600536404 /* AVFoundation.framework in Frameworks */,
 				9C1576EE160AC60400536404 /* UIKit.framework in Frameworks */,
 				9C1576F0160AC60400536404 /* Foundation.framework in Frameworks */,
@@ -75,6 +87,10 @@
 		9C1576DE160AC60400536404 = {
 			isa = PBXGroup;
 			children = (
+				9C048134160B2A0900B729E6 /* QuartzCore.framework */,
+				9C04812E160B23A900B729E6 /* CoreVideo.framework */,
+				9C04812C160B239F00B729E6 /* CoreMedia.framework */,
+				9C048129160B239200B729E6 /* ImageIO.framework */,
 				9C15771F160ACA7600536404 /* AVFoundation.framework */,
 				9C1576F3160AC60400536404 /* MacCoffee */,
 				9C1576EC160AC60400536404 /* Frameworks */,
