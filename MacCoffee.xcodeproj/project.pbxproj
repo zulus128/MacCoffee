@@ -30,6 +30,9 @@
 		9C157724160ACBA900536404 /* overlaygraphic.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C157722160ACBA900536404 /* overlaygraphic.png */; };
 		9C157725160ACBA900536404 /* scanbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C157723160ACBA900536404 /* scanbutton.png */; };
 		9CF8BC2F160AD2340051D44C /* MC_XL_frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CF8BC2E160AD2340051D44C /* MC_XL_frame.png */; };
+		DDE72316160BE8B00027DE2F /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE72315160BE8B00027DE2F /* ThirdViewController.m */; };
+		DDE7231A160BE9120027DE2F /* FoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE72319160BE9120027DE2F /* FoursViewController.m */; };
+		DDE7231D160BE9290027DE2F /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE7231C160BE9290027DE2F /* FifthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +66,12 @@
 		9C157722160ACBA900536404 /* overlaygraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlaygraphic.png; sourceTree = "<group>"; };
 		9C157723160ACBA900536404 /* scanbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanbutton.png; sourceTree = "<group>"; };
 		9CF8BC2E160AD2340051D44C /* MC_XL_frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MC_XL_frame.png; sourceTree = "<group>"; };
+		DDE72314160BE8B00027DE2F /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		DDE72315160BE8B00027DE2F /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		DDE72318160BE9120027DE2F /* FoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoursViewController.h; sourceTree = "<group>"; };
+		DDE72319160BE9120027DE2F /* FoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoursViewController.m; sourceTree = "<group>"; };
+		DDE7231B160BE9290027DE2F /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		DDE7231C160BE9290027DE2F /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +139,12 @@
 				9C157706160AC60400536404 /* FirstViewController.m */,
 				9C15770C160AC60400536404 /* SecondViewController.h */,
 				9C15770D160AC60400536404 /* SecondViewController.m */,
+				DDE72314160BE8B00027DE2F /* ThirdViewController.h */,
+				DDE72315160BE8B00027DE2F /* ThirdViewController.m */,
+				DDE72318160BE9120027DE2F /* FoursViewController.h */,
+				DDE72319160BE9120027DE2F /* FoursViewController.m */,
+				DDE7231B160BE9290027DE2F /* FifthViewController.h */,
+				DDE7231C160BE9290027DE2F /* FifthViewController.m */,
 				9C1576F4160AC60400536404 /* Supporting Files */,
 			);
 			path = MacCoffee;
@@ -236,6 +251,9 @@
 				9C157707160AC60400536404 /* FirstViewController.m in Sources */,
 				9C15770E160AC60400536404 /* SecondViewController.m in Sources */,
 				9C15771A160AC76C00536404 /* CaptureSessionManager.m in Sources */,
+				DDE72316160BE8B00027DE2F /* ThirdViewController.m in Sources */,
+				DDE7231A160BE9120027DE2F /* FoursViewController.m in Sources */,
+				DDE7231D160BE9290027DE2F /* FifthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

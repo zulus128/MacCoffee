@@ -1,25 +1,21 @@
 //
-//  SecondViewController.m
+//  ThirdViewController.m
 //  MacCoffee
 //
-//  Created by Zul on 9/19/12.
+//  Created by вадим on 9/21/12.
 //  Copyright (c) 2012 Zul. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "ThirdViewController.h"
 
-@interface SecondViewController ()
-
-@end
-
-@implementation SecondViewController
+@implementation ThirdViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    NSString *urlAddress = @"http://www.mail.ru";
+    NSString *urlAddress = @"http://www.odnoklassniki.ru/";
     
     //Create a URL object.
     NSURL *url = [NSURL URLWithString:urlAddress];

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface FoursViewController : UIViewController
 
 @property (nonatomic, retain) IBOutlet UIWebView *webView;
 
